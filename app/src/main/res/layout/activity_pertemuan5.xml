@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/angkaPertama"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:inputType=""/>
+
+    <TextView
+        android:id="@+id/operasi"
+        android:layout_width="312dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="13dp"
+        android:ems="20"
+        android:textAlignment="center"
+        android:text="TextView"
+        android:textAppearance="?android:attr/textAppearance" />
+
+    <EditText
+        android:id="@+id/angkaKedua"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:inputType="" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/angkaKedua"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:onClick="klikHitungYa"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:ems="20"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/keterangan"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:text="keterangan" />
+
+
+
+</LinearLayout>
+
+
+
+
+
